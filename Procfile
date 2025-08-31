@@ -1,1 +1,1 @@
-web: gunicorn nozaraexpress.wsgi:application
+gunicorn nozaraexpress.wsgi:application
