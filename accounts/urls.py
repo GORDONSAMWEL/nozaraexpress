@@ -10,3 +10,4 @@ urlpatterns = [
     path('register/', UserRegistrationView.as_view(), name='user-register')
 
 ]
+ 

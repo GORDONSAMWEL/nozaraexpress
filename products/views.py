@@ -16,7 +16,6 @@ class ProductViewSet(viewsets.ModelViewSet):
     pagination_class = ProductPagination
     filter_backends = [filters.SearchFilter]
     search_fields = ['name', 'category__name']
-    permission_classes = [IsAuthenticatedOrReadOnly]
 
 
     def get_queryset(self):
